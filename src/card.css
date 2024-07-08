@@ -1,0 +1,57 @@
+.animated-card {
+  background: linear-gradient(137deg, #00c693, #002b81, #6000bd, #bb7d00);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 60s ease infinite;
+  -moz-animation: AnimationName 60s ease infinite;
+  animation: AnimationName 60s ease infinite;
+}
+
+.super-navbar {
+  padding: 0 var(--padding-right) 0 var(--padding-left);
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: hsla(0, 0%, 100%, 0.8); /* slight transparency */
+  -webkit-backdrop-filter: blur(20px) saturate(200%);
+  backdrop-filter: blur(20px) saturate(200%);
+  -webkit-box-shadow: 0 0 20px rgb(0 0 0 / 4%);
+  box-shadow: 0 0 20px rgb(0 0 0 / 4%);
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 17%;
+  }
+  50% {
+    background-position: 100% 84%;
+  }
+  100% {
+    background-position: 0% 17%;
+  }
+}
+
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 17%;
+  }
+  50% {
+    background-position: 100% 84%;
+  }
+  100% {
+    background-position: 0% 17%;
+  }
+}
+
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 17%;
+  }
+  50% {
+    background-position: 100% 84%;
+  }
+  100% {
+    background-position: 0% 17%;
+  }
+}
